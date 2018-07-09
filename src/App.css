@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+* {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  }
+.container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  background-color: rgba(78, 84, 91, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  background-size: cover;
+  transition: background 2s ease-in-out;
+}
+.container .quote {
+  font-family: Fjalla One;
+  font-size: 20px;
+  page-break-inside: avoid;
+  color:#EDF2ED;
+}
+.container .author {
+  font-family: Poppins;
+  font-size: 15px;
+  width: auto;
+  text-align: right;
+  color: #EDF2ED;;
+}
+button {
+  font-family: Fjalla One;
+  font-size: 15px;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #EDF2ED;
+  border-radius: 5px;
+}
+img {
+  width:100vw;
+  height: 100vh;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #4E545B;
+}
+button:active {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px white;
+  transform: translateX(calc(-50% + 3px)) translateY(3px);
+  transition: all 0.2s;
+}
+.claw {
+  opacity: 0.8;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  font-size: 10px;
+  color: #fff;
+}
+.footer {
+  opacity: 0.8;
+  position: absolute;;
+  bottom: 0px;
+  text-align: center;
+  width: 100vw;
+  color: #fff;
+  font-size: 12px;
+}
+i {
+  color:red;
+}
